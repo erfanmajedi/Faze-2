@@ -49,9 +49,9 @@ public class MasterSetting extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         // make label for password
         jLabel2 = new javax.swing.JLabel();
-        // make text field for username
-        jPasswordFieldNewPass = new javax.swing.JPasswordField();
         // make text field for password
+        jPasswordFieldNewPass = new javax.swing.JPasswordField();
+        // make text field for username
         jTextFieldNewUsername = new javax.swing.JTextField();
         // make ok button
         jButtonCancel = new javax.swing.JButton();
@@ -82,7 +82,7 @@ public class MasterSetting extends javax.swing.JFrame {
         // add the button to the program
         jButtonOk.addActionListener(new java.awt.event.ActionListener() {
             /**
-             * this method invoke "خروج" button
+             * this method invoke "تایید" button
              * @param evt
              */
             public void actionPerformed(java.awt.event.ActionEvent evt) {
